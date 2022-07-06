@@ -1,0 +1,1442 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1400px) {
+    body {
+        background-color: #f8dac2;
+        color: white;
+        margin: 0%;
+        padding-top: 16px;
+        font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    body a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header #primeiraLinha {
+        display: flex;
+        font-weight: 1000;
+        font-size: 45px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #primeiraLinha a {
+        font-weight: 1000;
+        font-size: 45px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #login {
+        text-align: right;
+        font-size: 35px;
+        padding-top: 7px;
+    }
+
+    header #segundaLinha nav {
+        display: flex;
+        padding: 20px 0px 5px;
+        font-weight: 500;
+    }
+
+    header #segundaLinha i {
+        display: block;
+        font-size: 60px;
+    }
+
+    header #segundaLinha {
+        background-color: #f4436f;
+        border: solid 3.5px #ca1444;
+        --bs-gutter-x: var(--bs-gutter-x);
+    }
+
+    header #segundaLinha p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 1000;
+        text-shadow: 1.5px 1.5px #152f46;
+
+    }
+
+    main section .container {
+        margin-top: 20px;
+        border: solid 3.5px #ca1444;
+        background-color: #f4436f;
+        padding: 20px;
+    }
+
+    main section .title {
+        font-size: 3rem;
+        margin: 2rem 0rem;
+        text-align: center;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .faq {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    main section .question {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main section .question h4 {
+        font-size: 1.5rem;
+        display: inline;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1.4s ease;
+    }
+
+    main section .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+    }
+
+    .faq.active svg {
+        transform: rotate(180deg);
+    }
+
+    main section svg {
+        transition: transform 0.3s ease-in;
+    }
+
+    main section .sobreNos {
+        text-align: justify;
+    }
+
+    main section .integrante{
+        list-style: none;
+        font-size: 16px;
+        font-weight: 550;
+        text-shadow: 1.5px 1.5px #152f46;
+    }
+
+    main section h3 {
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section p {
+        font-weight: 900;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    main section #icon {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    main section #taskIcon {
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section #taskIcon2 {
+        display: none;
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section #taskIcon3 {
+        display: none;
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section img {
+        max-width: 100%;
+        float: right;
+        border: solid 3px #ca1444;
+    }
+
+    main section #img3 {
+        display: none;
+    }
+
+    main section #segundaLinha {
+        margin-top: 20px;
+    }
+
+    main section #saibaMais {
+        text-align: right;
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section #login {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    main section h1 {
+        padding-bottom: 10px;
+        font-size: 50px;
+        text-shadow: 3.5px 3px #152f46;
+    }
+
+    main section .lacuna {
+        padding: 15px;
+        border: solid 1px #152f46;
+        border-radius: 5px;
+        outline: none;
+        font-size: 18px;
+    }
+
+    main section #enviar {
+        background-color: #152f46;
+        color: white;
+        padding: 10px 50px;
+        border: solid 1.5px white;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    main section #registre-se {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    footer {
+        color: #152f46;
+        font-size: 15px;
+        text-align: center;
+        margin: 12px 0px;
+        font-weight: 500;
+    }
+}
+
+/*      EXTRA LARGE-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 1200px) and (max-width: 1399.9px) {
+    body {
+        background-color: #f8dac2;
+        color: white;
+        margin: 0%;
+        padding-top: 16px;
+        font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    body a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header #primeiraLinha {
+        display: flex;
+        font-weight: 1000;
+        font-size: 45px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #primeiraLinha a {
+        font-weight: 1000;
+        font-size: 45px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #login {
+        text-align: right;
+        font-size: 35px;
+        padding-top: 7px;
+    }
+
+    header #segundaLinha nav {
+        display: flex;
+        padding: 20px 0px 5px;
+        font-weight: 500;
+    }
+
+    header #segundaLinha i {
+        display: block;
+        font-size: 60px;
+    }
+
+    header #segundaLinha {
+        background-color: #f4436f;
+        border: solid 3.5px #ca1444;
+        --bs-gutter-x: var(--bs-gutter-x);
+    }
+
+    header #segundaLinha p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 1000;
+        text-shadow: 1.5px 1.5px #152f46;
+
+    }
+
+    main section .container {
+        margin-top: 20px;
+        border: solid 3.5px #ca1444;
+        background-color: #f4436f;
+        padding: 20px;
+    }
+
+    main section .title {
+        font-size: 3rem;
+        margin: 2rem 0rem;
+        text-align: center;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .faq {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    main section .question {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main section .question h4 {
+        font-size: 1.5rem;
+        display: inline;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1.4s ease;
+    }
+
+    main section .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+    }
+
+    .faq.active svg {
+        transform: rotate(180deg);
+    }
+
+    main section svg {
+        transition: transform 0.3s ease-in;
+    }
+
+    main section .sobreNos {
+        text-align: justify;
+    }
+
+    main section .integrante{
+        list-style: none;
+        font-size: 16px;
+        font-weight: 550;
+        text-shadow: 1.5px 1.5px #152f46;
+    }
+
+    main section h3 {
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section p {
+        font-weight: 900;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    main section #icon {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    main section #taskIcon {
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section #taskIcon2 {
+        display: none;
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section #taskIcon3 {
+        display: none;
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section img {
+        max-width: 100%;
+        float: right;
+        border: solid 3px #ca1444;
+    }
+
+    main section #img3 {
+        display: none;
+    }
+
+    main section #segundaLinha {
+        margin-top: 20px;
+    }
+
+    main section #segundoParagrafo {
+        display: none;
+    }
+
+    main section #saibaMais {
+        text-align: right;
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section #login {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    main section h1 {
+        padding-bottom: 10px;
+        font-size: 50px;
+        text-shadow: 3.5px 3px #152f46;
+    }
+
+    main section .lacuna {
+        padding: 15px;
+        border: solid 1px #152f46;
+        border-radius: 5px;
+        outline: none;
+        font-size: 18px;
+    }
+
+    main section #enviar {
+        background-color: #152f46;
+        color: white;
+        padding: 10px 50px;
+        border: solid 1.5px white;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    main section #registre-se {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    footer {
+        color: #152f46;
+        font-size: 15px;
+        text-align: center;
+        margin: 12px 0px;
+        font-weight: 500;
+    }
+}
+
+/*      LARGE-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1199.9px) {
+    body {
+        background-color: #f8dac2;
+        color: white;
+        margin: 0%;
+        padding-top: 16px;
+        font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    body a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header #primeiraLinha {
+        display: flex;
+        font-weight: 1000;
+        font-size: 45px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #primeiraLinha a {
+        font-weight: 1000;
+        font-size: 35px;
+        text-shadow: 2px 2px white;
+        color: #46153e;
+    }
+
+    header #login {
+        text-align: right;
+        font-size: 35px;
+        padding-top: 7px;
+    }
+
+    header #segundaLinha nav {
+        display: flex;
+        padding: 20px 0px 5px;
+        font-weight: 500;
+    }
+
+    header #segundaLinha i {
+        display: block;
+        font-size: 40px;
+    }
+
+    header #segundaLinha {
+        background-color: #f4436f;
+        border: solid 3.5px #ca1444;
+        --bs-gutter-x: var(--bs-gutter-x);
+    }
+
+    header #segundaLinha p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 1000;
+        text-shadow: 1.5px 1.5px #152f46;
+
+    }
+
+    main section .container {
+        margin-top: 20px;
+        border: solid 3.5px #ca1444;
+        background-color: #f4436f;
+        padding: 20px;
+    }
+
+    main section .title {
+        font-size: 3rem;
+        margin: 2rem 0rem;
+        text-align: center;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .faq {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    main section .question {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main section .question h4 {
+        font-size: 1.5rem;
+        display: inline;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1.4s ease;
+    }
+
+    main section .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+    }
+
+    .faq.active svg {
+        transform: rotate(180deg);
+    }
+
+    main section svg {
+        transition: transform 0.3s ease-in;
+    }
+
+    main section .sobreNos {
+        text-align: justify;
+    }
+
+    main section .integrante{
+        list-style: none;
+        font-size: 16px;
+        font-weight: 550;
+        text-shadow: 1.5px 1.5px #152f46;
+    }
+
+    main section h3 {
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section p {
+        font-weight: 900;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    main section #icon {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    main section #taskIcon {
+        display: none;
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section #taskIcon2 {
+        display: none;
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section #taskIcon3 {
+        padding-top: 30px;
+        font-size: 50px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section img {
+        max-width: 100%;
+        float: right;
+        border: solid 3px #ca1444;
+    }
+
+    main section #img3 {
+        display: none;
+    }
+
+    main section #segundaLinha {
+        margin-top: 20px;
+    }
+
+    main section #segundoParagrafo {
+        display: none;
+    }
+
+    main section #saibaMais {
+        text-align: right;
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section #login {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    main section h1 {
+        padding-bottom: 10px;
+        font-size: 50px;
+        text-shadow: 3.5px 3px #152f46;
+    }
+
+    main section .lacuna {
+        padding: 15px;
+        border: solid 1px #152f46;
+        border-radius: 5px;
+        outline: none;
+        font-size: 18px;
+    }
+
+    main section #enviar {
+        background-color: #152f46;
+        color: white;
+        padding: 10px 50px;
+        border: solid 1.5px white;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    main section #registre-se {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    footer {
+        color: #152f46;
+        font-size: 15px;
+        text-align: center;
+        margin: 12px 0px;
+        font-weight: 500;
+    }
+}
+
+/*      MEDIUM-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 991.9px) {
+    body {
+        background-color: #f8dac2;
+        color: white;
+        margin: 0%;
+        padding-top: 16px;
+        font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    body a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header #primeiraLinha {
+        display: flex;
+        font-weight: 1000;
+        font-size: 45px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #primeiraLinha a {
+        font-weight: 1000;
+        font-size: 30px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #login {
+        text-align: right;
+        font-size: 35px;
+        padding-top: 7px;
+    }
+
+    header #segundaLinha nav {
+        display: flex;
+        padding: 20px 0px 5px;
+        font-weight: 500;
+    }
+
+    header #segundaLinha i {
+        display: block;
+        font-size: 40px;
+    }
+
+    header #segundaLinha {
+        background-color: #f4436f;
+        border: solid 3.5px #ca1444;
+        --bs-gutter-x: var(--bs-gutter-x);
+    }
+
+    header #segundaLinha p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 1000;
+        text-shadow: 1.5px 1.5px #152f46;
+    }
+
+    main section .container {
+        margin-top: 20px;
+        border: solid 3.5px #ca1444;
+        background-color: #f4436f;
+        padding: 20px;
+    }
+
+    main section .title {
+        font-size: 3rem;
+        margin: 2rem 0rem;
+        text-align: center;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .faq {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    main section .question {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main section .question h4 {
+        font-size: 1.3rem;
+        display: inline;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1.4s ease;
+    }
+
+    main section .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+    }
+
+    .faq.active svg {
+        transform: rotate(180deg);
+    }
+
+    main section svg {
+        transition: transform 0.3s ease-in;
+    }
+
+    main section .sobreNos {
+        text-align: justify;
+    }
+
+    main section .integrante{
+        list-style: none;
+        font-size: 16px;
+        font-weight: 550;
+        text-shadow: 1.5px 1.5px #152f46;
+    }
+
+    main section h3 {
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section p {
+        font-weight: 900;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    main section #icon {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    main section #taskIcon {
+        display: none;
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section #taskIcon2 {
+        padding-top: 60px;
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section #taskIcon3 {
+        display: none;
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section img {
+        max-width: 100%;
+        float: right;
+    }
+
+    main section #img3 {
+        display: none;
+    }
+
+    main section #segundaLinha {
+        margin-top: 20px;
+    }
+
+    main section #img2 {
+        width: 100%;
+        padding: 0px 125px;
+        margin-bottom: 30px;
+    }
+
+    main section #segundoParagrafo {
+        display: none;
+    }
+
+    main section #saibaMais {
+        text-align: right;
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section #login {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    main section h1 {
+        padding-bottom: 10px;
+        font-size: 50px;
+        text-shadow: 3.5px 3px #152f46;
+    }
+
+    main section .lacuna {
+        padding: 15px;
+        border: solid 1px #152f46;
+        border-radius: 5px;
+        outline: none;
+        font-size: 18px;
+    }
+
+    main section #enviar {
+        background-color: #152f46;
+        color: white;
+        padding: 10px 50px;
+        border: solid 1.5px white;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    main section #registre-se {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    footer {
+        color: #152f46;
+        font-size: 15px;
+        text-align: center;
+        margin: 12px 0px;
+        font-weight: 500;
+    }
+}
+
+/*      SMALL-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 576px) and (max-width: 767.9px) {
+    body {
+        background-color: #f8dac2;
+        color: white;
+        margin: 0%;
+        padding-top: 16px;
+        font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    body a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header #primeiraLinha {
+        display: flex;
+        font-weight: 1000;
+        font-size: 41px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #primeiraLinha a {
+        font-weight: 1000;
+        font-size: 22px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #login {
+        text-align: right;
+        font-size: 35px;
+        padding-top: 7px;
+    }
+
+    header #segundaLinha nav {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0px 5px;
+        font-weight: 500;
+    }
+
+    header #segundaLinha i {
+        display: block;
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+
+    header #segundaLinha {
+        background-color: #f4436f;
+        border: solid 3.5px #ca1444;
+        --bs-gutter-x: var(--bs-gutter-x);
+    }
+
+    header #segundaLinha p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 1000;
+        text-shadow: 1.5px 1.5px #152f46;
+    }
+
+    header #segundaLinha #icons {
+        text-align: center;
+        font-size: 60px;
+        text-shadow: 3px 3px #152f46;
+    }
+
+    main section .container {
+        margin-top: 20px;
+        border: solid 3.5px #ca1444;
+        background-color: #f4436f;
+        padding: 20px;
+    }
+
+    main section .title {
+        font-size: 3rem;
+        margin: 2rem 0rem;
+        text-align: center;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .faq {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    main section .question {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main section .question h4 {
+        font-size: 1rem;
+        display: inline;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1.4s ease;
+    }
+
+    main section .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+    }
+
+    .faq.active svg {
+        transform: rotate(180deg);
+    }
+
+    main section svg {
+        transition: transform 0.3s ease-in;
+    }
+
+    main section .sobreNos {
+        text-align: justify;
+    }
+
+    main section .integrante{
+        list-style: none;
+        font-size: 16px;
+        font-weight: 550;
+        text-shadow: 1.5px 1.5px #152f46;
+    }
+
+    main section h3 {
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section p {
+        font-weight: 900;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    main section #icon {
+        display: none;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    main section #taskIcon {
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+
+    }
+
+    main section img {
+        max-width: 100%;
+        float: right;
+        border: solid 3px #ca1444;
+    }
+
+    main section #img2 {
+        display: none;
+    }
+
+    main section #segundaLinha {
+        margin-top: 20px;
+    }
+
+    main section #saibaMais {
+        text-align: right;
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section #login {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    main section h1 {
+        padding-bottom: 10px;
+        font-size: 50px;
+        text-shadow: 3.5px 3px #152f46;
+    }
+
+    main section .lacuna {
+        padding: 15px;
+        border: solid 1px #152f46;
+        border-radius: 5px;
+        outline: none;
+        font-size: 18px;
+    }
+
+    main section #enviar {
+        background-color: #152f46;
+        color: white;
+        padding: 10px 50px;
+        border: solid 1.5px white;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    main section #registre-se {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    footer {
+        color: #152f46;
+        font-size: 15px;
+        text-align: center;
+        margin: 12px 0px;
+        font-weight: 500;
+    }
+}
+
+/*      EXTRA SMALL-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 575.9px) {
+    body {
+        background-color: #f8dac2;
+        color: white;
+        margin: 0%;
+        padding-top: 16px;
+        font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    body a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header #primeiraLinha {
+        display: flex;
+        font-weight: 1000;
+        font-size: 41px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+        background-color: #f8dac2;
+    }
+
+    header #primeiraLinha a {
+        font-weight: 1000;
+        font-size: 18px;
+        text-shadow: 2px 2px white;
+        color: #152f46;
+    }
+
+    header #login {
+        text-align: right;
+        font-size: 35px;
+        padding-top: 7px;
+    }
+
+    header #segundaLinha nav {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0px 5px;
+        font-weight: 500;
+    }
+
+    header #segundaLinha i {
+        display: block;
+        font-size: 40px;
+    }
+
+    header #segundaLinha {
+        background-color: #f4436f;
+        border: solid 3.5px #ca1444;
+        --bs-gutter-x: var(--bs-gutter-x);
+    }
+
+    header #segundaLinha p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 1000;
+        text-shadow: 1.5px 1.5px #152f46;
+    }
+
+    main section .container {
+        margin-top: 20px;
+        border: solid 3.5px #ca1444;
+        background-color: #f4436f;
+        padding: 20px;
+    }
+
+    main section .title {
+        font-size: 3rem;
+        margin: 2rem 0rem;
+        text-align: center;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .faq {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    main section .question {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main section .question h4 {
+        font-size: 1rem;
+        display: inline;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1.4s ease;
+    }
+
+    main section .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+    }
+
+    .faq.active svg {
+        transform: rotate(180deg);
+    }
+
+    main section svg {
+        transition: transform 0.3s ease-in;
+    }
+
+    main section .sobreNos {
+        text-align: justify;
+    }
+
+    main section .integrante{
+        list-style: none;
+        font-size: 16px;
+        font-weight: 550;
+        text-shadow: 1.5px 1.5px #152f46;
+    }
+
+    main section h3 {
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section p {
+        font-weight: 900;
+        text-shadow: 2px 1px #152f46;
+    }
+
+    main section #icon {
+        display: none;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    main section #taskIcon {
+        font-size: 85px;
+        text-shadow: 3px 3px #152f46;
+
+    }
+
+    main section img {
+        max-width: 100%;
+        float: right;
+        border: solid 3px #ca1444;
+    }
+
+    main section #img2 {
+        display: none;
+    }
+
+    main section #segundaLinha {
+        margin-top: 20px;
+    }
+
+    main section #saibaMais {
+        text-align: right;
+        font-weight: 1000;
+        text-shadow: 2px 2px #152f46;
+    }
+
+    main section #login {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 4px 0px;
+    }
+
+    main section h1 {
+        padding-bottom: 15px;
+        font-size: 40px;
+        text-shadow: 3.5px 3px #152f46;
+    }
+
+    main section .lacuna {
+        padding: 10px;
+        border: solid 1px #152f46;
+        border-radius: 5px;
+        outline: none;
+        font-size: 15px;
+    }
+
+    main section #enviar {
+        background-color: #152f46;
+        color: white;
+        padding: 8px 40px;
+        border: solid 1.5px white;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    main section #registre-se {
+        text-shadow: 3px 3px #152f46;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    footer {
+        color: #152f46;
+        font-size: 15px;
+        text-align: center;
+        margin: 12px 0px;
+        font-weight: 500;
+    }
+}

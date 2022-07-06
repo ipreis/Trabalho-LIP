@@ -1,0 +1,130 @@
+/*---------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: #f8dac2;
+    color: hsl(0, 0%, 100%);
+    padding-top: 16px;
+    font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    color: #152f46;
+    font-size: 15px;
+    text-align: center;
+    margin: 12px 0px;
+    font-weight: 500;
+}
+
+#primeiraLinha {
+    font-weight: 1000;
+    font-size: calc(2vw + 13px);
+    text-shadow: 2px 2px white;
+    color: #152f46;
+}
+
+#primeiraLinha a {
+    font-weight: 1000;
+    font-size: calc(2vw + 13px);
+    text-shadow: 2px 2px white;
+    color: #152f46;
+}
+
+#segundaLinha nav {
+    display: flex;
+    padding: 20px 0px 5px;
+    font-weight: 500;
+}
+
+#segundaLinha i {
+    display: block;
+    font-size: 60px;
+}
+
+#segundaLinha {
+    background-color: #f4436f;
+    border: solid 3.5px #ca1444;
+    --bs-gutter-x: var(--bs-gutter-x);
+}
+
+#segundaLinha p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 1000;
+    text-shadow: 1.5px 1.5px #152f46;
+
+}
+
+
+
+/*---------------------------------------------------------*/
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#main-box {
+    background-color: #f4436f;
+    border: solid 3.5px #ca1444;
+    --bs-gutter-x: var(--bs-gutter-x);
+    text-shadow: 3px 3px #152f46;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+#precoRecompensas {
+    margin-top: 5px;
+}
+
+#buy {
+    margin-top: 0px;
+}
+
+#padrao {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tituloRecompensas {
+    margin-top: 20px;
+}
+
+#fundoVermelho,
+#fundoAzul,
+#fundoVerde,
+#fundoAmarelo {
+    margin: 5px;
+}
+
+#fonteVermelha,
+#fonteAzul,
+#fonteVerde,
+#fonteAmarela {
+    margin: 5px;
+}
+
+#fonteArial,
+#fonteTimes,
+#fonteImpact {
+    margin: 5px;
+}
+
+#main-box {
+    max-width: 86vw;
+}
+
+.margin-header {
+    max-width: 86vw;
+    margin-bottom: 30px;
+}

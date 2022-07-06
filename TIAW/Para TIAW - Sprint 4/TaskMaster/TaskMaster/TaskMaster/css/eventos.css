@@ -1,0 +1,80 @@
+/* CSS Geral - Início */
+
+/* Botões do menu */
+label.nome-botao {
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Titulo da Tela */
+div#tituloTela {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Cards dos Eventos */
+div.evento {
+    background-color: #f8dac2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 18rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+div.evento p {
+    text-align: center;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+div.evento h5 {
+    text-align: center;
+    color: #ca1414;
+}
+
+div.evento p.categoria {
+    color: #1499ca;
+}
+
+div.evento p.descricao {
+    font-size: 90%;
+}
+
+/* Modal */
+.modal{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#bt-cadastrar,
+#bt-cancelar {
+    max-width: fit-content;
+}
+
+/* CSS Geral - Fim */
+
+/* Media Queries - Início */
+
+@media screen and (max-width: 767px) {
+
+    /* Label dos botões */
+    label.nome-botao {
+        display: none;
+    }
+
+    /* Modal */
+    label.nome-botao-modal {
+        display: none;
+    }
+
+    #bt-cadastrar,
+    #bt-cancelar {
+        margin: 0px 20px 0px;
+        width: 100%;
+    }
+
+}
+
+/* Media Queries - Fim */

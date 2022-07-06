@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recompensas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/recompensas.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid margin-header">
+            <div class="row justify-content-center">
+                <div id="primeiraLinha">
+                    <div class="row" style="text-align: justify;">
+                        <div class="col">
+                            <a href="index.html">TaskMaster <i class="fa-solid fa-pen-to-square" id="taskMaster"></i></a>
+                        </div>
+                        <div class="col-auto" style="float: right;">
+                            <p id="login"><a href="login.html"><i class="fa-solid fa-user" id="userIcon"></i> Login/</a><a
+                                    href="register.html">Registre-se</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="segundaLinha">
+                    <nav>
+                        <!-- Tarefas -->
+                        <div style="width: 20%" class="col-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <p><a href="tarefas.html"><i class="fa-solid fa-pen-ruler"></i>Tarefas</a></p>
+                        </div>
+                        <!-- Eventos -->
+                        <div style="width: 20%" class="col-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <p><a href="eventos.html"><i class="fa-solid fa-calendar-days"></i>Eventos</a></p>
+                        </div>
+                        <!-- Meu Perfil -->
+                        <div style="width: 20%" class="col-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <p><a href="perfil.html"><i class="fa-solid fa-address-card"></i>Meu perfil</a></p>
+                        </div>
+                        <!-- F.A.Q. -->
+                        <div style="width: 20%" class="col-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <p><a href="faq.html"><i class="fa-solid fa-circle-question"></i>F.A.Q</a></p>
+                        </div>
+                        <!-- Sobre nós -->
+                        <div style="width: 20%" class="col-lg-2 col-md-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <p><a href="sobreNos.html"><i class="fa-solid fa-circle-info"></i>Sobre nós</a></p>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div id="main-box">
+                    <h1>Loja de Recompensas</h1>
+                    <h4>Taskwallet: <span id="pontos"></span> taskpoints</h4>
+                    <div id="buy-box">
+                        <h5 id="precoRecompensas">Desbloquear recompensa aleatória: TK$250</h5>
+                        <button type="button" id="buy" class="btn btn-secondary">Comprar</button>
+                    </div>
+                    <div class="row">
+                        <div id="recompensas" class="col-12">
+                            <button type="button" id="padrao" class="btn btn-secondary">Configurações
+                                originais</button><br>
+                            <div class="row">
+                                <div id="corFundo" class="col-xs-12 col-sm-4">
+                                    <h5 id="tituloRecompensas">Cor do fundo</h5>
+                                    <button type="button" id="fundoVermelho" class="btn btn-danger disabled">Fundo
+                                        Vermelho</button>
+                                    <button type="button" id="fundoAzul" class="btn btn-primary disabled">Fundo
+                                        Azul</button><br>
+                                    <button type="button" id="fundoVerde" class="btn btn-success disabled">Fundo
+                                        Verde</button>
+                                    <button type="button" id="fundoAmarelo" class="btn btn-warning disabled">Fundo
+                                        Amarelo</button><br>
+                                </div>
+                                <div id="corFonte" class="col-xs-12 col-sm-4">
+                                    <h5 id="tituloRecompensas">Cor da fonte</h5>
+                                    <button type="button" id="fonteVermelha" class="btn btn-danger disabled">Fonte
+                                        Vermelha</button>
+                                    <button type="button" id="fonteAzul" class="btn btn-primary disabled">Fonte
+                                        Azul</button><br>
+                                    <button type="button" id="fonteVerde" class="btn btn-success disabled">Fonte
+                                        Verde</button>
+                                    <button type="button" id="fonteAmarela" class="btn btn-warning disabled">Fonte
+                                        Amarela</button><br>
+                                </div>
+                                <div id="estiloFonte" class="col-xs-12 col-sm-4">
+                                    <h5 id="tituloRecompensas">Estilo da fonte</h5>
+                                    <button type="button" id="fonteArial" class="btn btn-secondary">Fonte
+                                        Arial</button>
+                                    <button type="button" id="fonteTimes" class="btn btn-secondary">Fonte Times New
+                                        Roman</button><br>
+                                    <button type="button" id="fonteImpact" class="btn btn-secondary">Fonte
+                                        Impact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div col-12>
+                    Copyright 2022 - Todos os direitos reservados - <b>ICEI PUC Minas</b></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/recompensas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1f504d9197.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
